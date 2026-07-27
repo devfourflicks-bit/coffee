@@ -1,0 +1,8 @@
+{
+  "name": "Third Wave Coffee",
+  "description": "Artisanal Roasters e-commerce platform offering specialty single-origin coffees, curated subscriptions, and brewing equipment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

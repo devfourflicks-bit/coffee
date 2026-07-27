@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Roboto", "Plus Jakarta Sans", "Google Sans", system-ui, -apple-system, sans-serif;
+  --font-sans: "Roboto", "Plus Jakarta Sans", "Google Sans", system-ui, -apple-system, sans-serif;
+
+  --color-roaster-primary: #25160e;
+  --color-roaster-container: #3c2a21;
+  --color-roaster-espresso: #1a120b;
+  --color-roaster-crema: #e6d5b8;
+  --color-roaster-forest: #1b3022;
+  --color-roaster-gold: #c5a059;
+  --color-roaster-surface: #fbf9f4;
+  --color-roaster-low: #f5f3ee;
+  --color-roaster-card: #f0eee9;
+  --color-roaster-muted: #4f4540;
+}
+
+@layer base {
+  body, h1, h2, h3, h4, h5, h6, p, label, span, button, input, select, textarea, a, div {
+    font-family: "Roboto", "Plus Jakarta Sans", "Google Sans", system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: "Roboto", "Plus Jakarta Sans", "Google Sans", system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f3ee;
+}
+::-webkit-scrollbar-thumb {
+  background: #c5a059;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #25160e;
+}
